@@ -4,6 +4,18 @@
 
 //GLOBAL VARIABLES
 /* global $ */
+var random=Math.random();
+var choice;
+if(random<.33){
+    choice="rock";
+}
+else if(random < .66){
+    choice="scissors"
+}
+else {
+    choice="paper"
+}
+
 
 
 
