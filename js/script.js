@@ -4,7 +4,11 @@
 
 //GLOBAL VARIABLES
 /* global $ */
-var random=Math.random();
+$("#shoot").click(function(){
+    var right="";
+    right=$("#input").val()
+    $("#userChoice").html(right)
+    var random=Math.random();
 var choice;
 if(random<.33){
     choice="rock";
@@ -15,6 +19,9 @@ else if(random < .66){
 else {
     choice="paper"
 }
+})
+
+
 
 
 
