@@ -19,6 +19,7 @@ else if(random < .66){
 else {
     choice="paper"
 }
+$("#computerChoice").html(choice)
 })
 
 
